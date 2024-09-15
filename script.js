@@ -18,7 +18,7 @@ function checkwinner() {
     }
     
     if(!arr.some((e) => e === null)){
-        alert(`Draw!!`);
+        alert(`Hey its Draw!!`);
         resetGame();
         return;
     }
